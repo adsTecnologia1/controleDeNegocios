@@ -1,0 +1,1113 @@
+/*******Fontes**********/
+@font-face {
+    font-family: "Bebas";
+    src: url("../fonts/BebasNeue Book.otf"); }
+  @font-face {
+    font-family: "BebasStrong";
+    src: url("../fonts/BebasNeue Bold.ttf"); }
+  @font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Light.ttf"); }
+  @font-face {
+    font-family: 'BebasStrong';
+    src: url("../fonts/bebasneue_bold-webfont.eot");
+    src: url("../fonts/bebasneue_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bebasneue_bold-webfont.woff2") format("woff2"), url("../fonts/bebasneue_bold-webfont.woff") format("woff"), url("../fonts/bebasneue_bold-webfont.ttf") format("truetype"), url("../fonts/bebasneue_bold-webfont.svg#bebas_neuebold") format("svg");
+    font-weight: normal;
+    font-style: normal; }
+  @font-face {
+    font-family: 'Bebas';
+    src: url("../fonts/bebasneue_book-webfont.eot");
+    src: url("../fonts/bebasneue_book-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bebasneue_book-webfont.woff2") format("woff2"), url("../fonts/bebasneue_book-webfont.woff") format("woff"), url("../fonts/bebasneue_book-webfont.ttf") format("truetype"), url("../fonts/bebasneue_book-webfont.svg#bebas_neuebook") format("svg");
+    font-weight: normal;
+    font-style: normal; }
+  /********Mixin*********/
+  /********Cores**********/
+  /********Nav***********/
+  div {
+    box-sizing: border-box; }
+  
+  input:focus, textarea:focus {
+    outline: none; }
+  
+  a {
+    text-decoration: none; }
+  
+  .nav {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 70px; }
+  
+  .nav .container {
+    height: 70px;
+    width: 80%;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between; }
+  
+  .nav .container img {
+    height: 45px;
+    width: 116px; }
+  
+  .nav .container ul li {
+    display: inline-block; }
+  
+  .nav .container ul li a {
+    text-decoration: none;
+    font: 21px 'Bebas';
+    color: #000000;
+    padding: 0 7px; }
+  
+  .nav button {
+    border: 1px solid #0390ab;
+    background-color: transparent;
+    color: #0390ab;
+    padding: 0 30px; }
+  
+  .nav button:hover {
+    background-color: #0390ab;
+    color: #fff;
+    transition-duration: .6s; }
+  
+  .nav .menu-abrir, .nav .menu-fechar {
+    display: none; }
+  
+  .icone-menu {
+    font-size: 30px;
+    color: #3d3d3d; }
+  
+  .menu-mobile {
+    width: 80%;
+    background-color: #e0e0e0;
+    opacity: 0.98;
+    padding: 0;
+    display: none;
+    z-index: 4; }
+  
+  .menu-mobile ul li {
+    list-style: none;
+    width: 100%;
+    margin-left: -10%;
+    text-align: center;
+    padding-bottom: 20px; }
+  
+  .menu-mobile ul li a {
+    text-decoration: none;
+    font: 22px 'Bebas';
+    color: #000000; }
+  
+  /********Main********/
+  .main, #contato {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    z-index: 1; }
+  
+  .bxslider img {
+    width: 100%; }
+  
+  .titulo-principal {
+    font: 35px "Bebas"; }
+  
+  .barra-titulo-principal {
+    color: #0390ab;
+    font-family: 'BebasStrong'; }
+  
+  .aside p, p {
+    font: 18px "Lato"; }
+  
+  #produtos {
+    width: 100%;
+    height: auto;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  
+  #produtos a {
+    width: 30%;
+    margin: 10px; }
+  
+  .botao-sessao {
+    width: 100%;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #0390ab;
+    font: 20px 'Bebas';
+    color: #0390ab; }
+  
+  .botao-sessao a:visited {
+    color: #0390ab; }
+  
+  .botao-sessao:hover {
+    background-color: #0390ab;
+    transition: all 600ms ease;
+    color: #fff; }
+  
+  .topicos {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #c7c7c7;
+    margin-top: 30px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  
+  .topicos h1 {
+    font: 28px "Bebas"; }
+  
+  .topicos > a {
+      width: 20%;
+    height: 100%;
+    margin: 0;
+    background-image: url("../images/caminhaozinho.jpg");
+    background-size: cover;
+    background-position: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 40px; }
+  
+  .topicos .imagem-topico-formatacao {
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    background-image: url("../images/Document-icon.png");
+    background-size: cover;
+    background-position: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 40px; }
+  
+  .topicos .imagem-topico-nfe {
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    background-image: url("../images/desenvolvimento-site.jpg");
+    background-size: cover;
+    background-position: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 40px; }
+  
+  
+  
+  
+  .topicos .icone-topico {
+    width: 80px;
+    height: 80px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1); }
+  
+  .topicos:hover .icone-topico {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+    background-color: #03a2c0; }
+  
+  .topicos .texto-topico {
+    width: 80%;
+    height: 100%;
+    padding-left: 20px; }
+  
+  /*******Mastertranp*********/
+  .banner-principal {
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/banner-mastertransp2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  
+  .banner-principalNfe {
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/119.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  
+  .banner-principalSite {
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/OAYTMM0.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  
+  
+  
+  
+  .banner-principal h1 {
+    font: 45px "Bebas";
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    text-shadow: -1px 0px 4px #888888;
+    padding: 10px; }
+  
+  .banner-principalNfe h1 {
+    font: 45px "Bebas";
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    text-shadow: -1px 0px 4px #888888;
+    padding: 10px; }
+  
+  .banner-principalSite h1 {
+    font: 45px "Bebas";
+    color: #000000;
+    border: 1px solid #fff;
+    text-align: center;
+    
+    padding: 10px;
+  background-color: #fff;}
+  
+  .triangulo {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  
+  .descricao {
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+    padding: 30px 0; }
+  
+  .descricao .container, .depoimentos .container {
+    width: 80%;
+    margin: 0 auto; }
+  
+  .descricao .container h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font: 35px "Bebas"; }
+  
+  .descricao .container p {
+    margin: 0; }
+  
+  .modulos {
+    width: 100%;
+    height: 360px;
+    border: 1px solid #c7c7c7; }
+  
+  .modulos .header {
+    width: 100%;
+    height: 30%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  
+  .modulos .header-frete {
+    background-image: url("../images/frete.png");
+    background-repeat: no-repeat; }
+  
+  .modulos .header-financeiro {
+    background-image: url("../images/dinheiro.png");
+    background-repeat: no-repeat; }
+  
+  .modulos .header-faturamento {
+    background-image: url("../images/faturamento.png");
+    background-repeat: no-repeat; }
+  
+  .modulos .header-cadastro {
+    background-image: url("../images/cadastro.png");
+    background-repeat: no-repeat; }
+  
+  .modulos .header-relatorio {
+    background-image: url("../images/relatorio.png");
+    background-repeat: no-repeat; }
+  
+  .modulos .header-sped {
+    background-image: url("../images/sped.png");
+    background-repeat: no-repeat; }
+  
+  .modulos .icone-modulo {
+    color: #fff;
+    font-size: 60px;
+    text-shadow: #000 -1px -1px; }
+  
+  .modulos h2 {
+    font: 28px "Bebas";
+    text-align: center; }
+  
+  .modulos p {
+    font: 16px "Lato";
+    text-align: center;
+    width: 80%;
+    margin: 0 auto; }
+  
+  .bxslider2 {
+    margin-left: 0; }
+  
+  .bxslider2 li {
+    margin-left: -40px;
+    padding-bottom: 20px; }
+  
+  .bxslider2 img {
+    padding-bottom: 30px;
+    margin: 0 auto; }
+  
+  .outra-coisa table {
+    width: 100%;
+    font: 17px 'Lato';
+    padding-left: 10px; }
+  
+  .outra-coisa table th {
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 10px; }
+  
+  .outra-coisa table td {
+    padding-left: 10px; }
+  .NFetable {
+       border-radius: 20px;
+       width: 300px; 
+       
+       
+  }
+  .c{
+     text-align: center;
+    width: 400px; 
+    border-radius: 20px;
+  
+      ;
+  }
+      
+  
+  .depoimentos {
+    width: 100%;
+    height: auto;
+    background-color: #f9f9f9;
+    background-image: url("../images/linha.png");
+    padding: 20px 0; }
+  
+  .depoimentos .container {
+    width: 80%;
+    margin: 0 auto; }
+  
+  .depoimentos-clientes {
+    width: 100%;
+    height: auto;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+  
+  .frases {
+    width: 30%;
+    height: 410px;
+    display: inline-block; }
+  
+  .frases:hover #frase {
+    background-color: #fff; }
+  
+  #frase {
+    width: 100%;
+    height: 80%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 1px solid #c7c7c7;
+    padding: 20px; }
+  
+  #frase p {
+    text-align: center; }
+  
+  #cliente {
+    width: 100%;
+    height: 20%; }
+  
+  #cliente .container {
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    top: -50%; }
+  
+  #cliente img {
+    border-radius: 100%; }
+  
+  #cliente p {
+    margin: 0;
+    position: relative;
+    top: -45%;
+    text-align: center; }
+  
+  #box-contato {
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px; }
+  
+  #logo-inbra {
+    width: 100%;
+    height: 50%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  
+  #botao-contato {
+    width: 100%;
+    height: 50%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  
+  #botao-contato a {
+    text-decoration: none; }
+  
+  #botao-contato a:visited {
+    color: #0390ab; }
+  
+  #botao-contato button {
+    width: 230px;
+    height: 40px;
+    border: 1px solid #0390ab;
+    font: 22px 'Bebas';
+    color: #0390ab;
+    background-color: transparent; }
+  
+  #botao-contato button:hover {
+    background-color: #0390ab;
+    color: #fff;
+    transition-duration: .6s; }
+  
+  #botao-contato button:hover a:visited {
+    color: #fff; }
+  
+  /******Footer*****/
+  .footer {
+    width: 100%;
+    height: auto;
+    background-color: #3d3d3d;
+    margin-top: 30px;
+    clear: both; }
+  
+  .footer p, .menu-rodape a {
+    font: 16px "Lato";
+    margin: 0;
+    margin-bottom: 5px;
+    color: #fff; }
+  
+  .footer p span {
+    font: 20px "Lato";
+    font-family: 'LatoBold'; }
+  
+  .menu-rodape a {
+    text-decoration: none; }
+  
+  .footer .dados-inbra button {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    width: 210px;
+    height: 40px;
+    font: 18px 'Bebas'; }
+  
+  .footer .container {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    flex-wrap: wrap; }
+  
+  .footer .dados-inbra {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 30%;
+    height: auto; }
+  
+  .footer .menu-rodape {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 30%;
+    height: auto; }
+  
+  .footer .redes-sociais {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 30%;
+    height: auto; }
+  
+  .footer .menu-rodape ul {
+    margin-left: -20px; }
+  
+  .footer .icones-redes-sociais p {
+    font-size: 20px;
+    float: left;
+    margin-right: 5px; }
+  
+  .footer .icones-redes-sociais a {
+    color: #fff; }
+  
+  .footer .redes-sociais input {
+    border: 1px solid #fff;
+    width: 80%;
+    height: 35px;
+    box-sizing: border-box;
+    background-color: transparent;
+    margin-bottom: 10px;
+    color: #fff; }
+  
+  .redes-sociais button {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    width: 80%;
+    height: 40px;
+    margin-bottom: 10px; }
+  
+  .footer .dados-inbra a {
+    text-decoration: none;
+    color: #fff;
+    font: 18px 'Bebas'; }
+  
+  .footer .redes-sociais a:visited {
+    color: #fff; }
+  
+  .footer ::-webkit-input-placeholder {
+    color: #fff;
+    font: 15px 'Lato', arial, sans-serif; }
+  .footer :-moz-placeholder {
+    color: #fff;
+    font: 15px 'Lato', arial, sans-serif; }
+  .footer ::-moz-placeholder {
+    color: #fff;
+    font: 15px 'Lato', arial, sans-serif; }
+  .footer :-ms-input-placeholder {
+    color: #fff;
+    font: 15px 'Lato', arial, sans-serif; }
+  
+  .obs {
+    background-color: #2b2b2b;
+    color: #fff;
+    width: 100%;
+    margin: 0 auto; }
+  
+  .obs .container {
+    width: 80%;
+    margin: 0 auto; }
+  
+  .obs p {
+    margin: 0;
+    font: 13px 'Lato';
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  
+  /*************************************Media Querys***************************************/
+  @media (max-width: 320px) {
+    .nav .container {
+      width: 98%; }
+  
+    .nav .container ul {
+      display: none; }
+  
+    .nav .menu-abrir {
+      display: block; }
+  
+    .nav .menu-mobile {
+      display: block;
+      position: fixed;
+      left: 100%;
+      height: 100%;
+      transition: left 0.3s ease-out; }
+  
+    .menu-ativo .menu-mobile {
+      left: 20%; }
+  
+    .main {
+      width: 95%; }
+  
+    .aside p, p {
+      font: 16px "Lato";
+      line-height: 140%; }
+  
+    .servicos {
+      display: inherit; }
+  
+    .article {
+      width: 100%; }
+  
+    .article .header {
+      width: 100%;
+      height: 35%; }
+  
+    .article .content {
+      width: 100%;
+      height: 30%; }
+  
+    .article .foot {
+      width: 100%;
+      height: 45%; }
+  
+    .footer .social {
+      display: none; }
+  
+    .titulo-principal {
+      font: 25px "Bebas"; }
+  
+    /*****PAGINA INICIAL*****/
+    #produtos a {
+      width: 100%; }
+  
+    .botao-sessao {
+      width: 100%;
+      font-size: 18px; }
+  
+    .topicos .icone-topico {
+      width: 50px;
+      height: 50px; }
+  
+    .topicos .titulo-principal {
+      font: 19px "Bebas"; }
+  
+    /********MASTERTRANSP*******/
+    .descricao .container .titulo-principal {
+      font-size: 21px; }
+  
+    .frases {
+      width: 100%; }
+  
+    .descricao .container, .depoimentos .container, #contato {
+      width: 98%; }
+  
+    /***FOOTER***/
+    .footer .container {
+      width: 98%; }
+  
+    .footer .dados-inbra {
+      width: 60%; }
+  
+    .footer .menu-rodape {
+      width: 40%; }
+  
+    .footer .redes-sociais {
+      display: none; } }
+  @media (min-width: 321px) and (max-width: 480px) {
+    .nav .container {
+      width: 98%; }
+  
+    .nav .container ul {
+      display: none; }
+  
+    .nav .menu-abrir {
+      display: block; }
+  
+    .nav .menu-mobile {
+      display: block;
+      position: fixed;
+      left: 100%;
+      height: 100%;
+      transition: left 0.3s ease-out; }
+  
+    .menu-ativo .menu-mobile {
+      left: 20%; }
+  
+    .main {
+      width: 95%; }
+  
+    .aside p, p {
+      font: 16px "Lato";
+      line-height: 140%; }
+  
+    .servicos {
+      display: inherit; }
+  
+    .article {
+      width: 100%; }
+  
+    .article .header {
+      width: 100%;
+      height: 35%; }
+  
+    .article .content {
+      width: 100%;
+      height: 30%; }
+  
+    .article .foot {
+      width: 100%;
+      height: 45%; }
+  
+    .footer .social {
+      display: none; }
+  
+    .titulo-principal {
+      font: 25px "Bebas"; }
+  
+    .banner-principal {
+      width: 100%;
+      height: 200px;
+      background-image: url("../images/banner-mastertransp2.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+  
+    .banner-principal h1 {
+      font: 23px "Bebas";
+      color: #fff;
+      border: 1px solid #fff;
+      text-align: center;
+      text-shadow: -1px 0px 4px #888888;
+      padding: 10px; }
+  
+    /*****PAGINA INICIAL*****/
+    #produtos a {
+      width: 100%; }
+  
+    .botao-sessao {
+      width: 100%; }
+  
+    .topicos .icone-topico {
+      width: 50px;
+      height: 50px; }
+  
+    .topicos .titulo-principal {
+      font: 20px "Bebas"; }
+  
+    /********MASTERTRANSP*******/
+    .descricao .container .titulo-principal {
+      font-size: 22px; }
+  
+    .frases {
+      width: 100%; }
+  
+    .descricao .container, .depoimentos .container, #contato {
+      width: 98%; }
+  
+    /***FOOTER***/
+    .footer .container {
+      width: 98%; }
+  
+    .footer .dados-inbra {
+      width: 60%; }
+  
+    .footer .menu-rodape {
+      width: 40%; }
+  
+    .footer .redes-sociais {
+      display: none; } }
+  @media (min-width: 481px) and (max-width: 768px) {
+    .nav .container {
+      width: 98%; }
+  
+    .nav .container ul {
+      display: none; }
+  
+    .nav .menu-abrir {
+      display: block; }
+  
+    .nav .menu-mobile {
+      display: block;
+      position: fixed;
+      left: 100%;
+      height: 100%;
+      transition: left 0.3s ease-out; }
+  
+    .menu-ativo .menu-mobile {
+      left: 20%; }
+  
+    .main {
+      width: 85%; }
+  
+    .aside p, p {
+      font: 16px "Lato";
+      line-height: 140%; }
+  
+    .servicos {
+      display: inherit; }
+  
+    .article {
+      width: 80%; }
+  
+    .article .header {
+      width: 100%;
+      height: 35%; }
+  
+    .article .content {
+      width: 100%;
+      height: 30%; }
+  
+    .article .foot {
+      width: 100%;
+      height: 45%; }
+  
+    .footer .social {
+      display: none; }
+  
+    .titulo-principal {
+      font: 25px "Bebas"; }
+  
+    /*****PAGINA INICIAL*****/
+    #produtos a {
+      width: 100%; }
+  
+    .botao-sessao {
+      width: 100%; }
+  
+    .topicos .icone-topico {
+      width: 50px;
+      height: 50px; }
+  
+    .topicos .titulo-principal {
+      font: 21px "Bebas"; }
+  
+    /********MASTERTRANSP*******/
+    .banner-principal h1 {
+      font-size: 30px; }
+  
+    .descricao .container .titulo-principal {
+      font-size: 22px; }
+  
+    .frases {
+      width: 100%; }
+  
+    .descricao .container, .depoimentos .container, #contato {
+      width: 90%; }
+  
+    /***FOOTER***/
+    .footer .container {
+      width: 98%; }
+  
+    .footer .dados-inbra {
+      width: 60%; }
+  
+    .footer .menu-rodape {
+      width: 40%; }
+  
+    .footer .redes-sociais {
+      display: none; } }
+  @media (min-width: 769px) and (max-width: 950px) {
+    .nav .container {
+      width: 98%; }
+  
+    .nav .container ul {
+      display: none; }
+  
+    .nav .menu-abrir {
+      display: block; }
+  
+    .nav .menu-mobile {
+      display: block;
+      position: fixed;
+      left: 100%;
+      height: 100%;
+      transition: left 0.3s ease-out; }
+  
+    .menu-ativo .menu-mobile {
+      left: 20%; }
+  
+    .main {
+      width: 80%; }
+  
+    .aside p, p {
+      font: 16px "Lato";
+      line-height: 140%; }
+  
+    .servicos {
+      display: inherit; }
+  
+    .article {
+      width: 30%; }
+  
+    .article .header {
+      width: 100%;
+      height: 35%; }
+  
+    .article .content {
+      width: 100%;
+      height: 30%; }
+  
+    .article .foot {
+      width: 100%;
+      height: 45%; }
+  
+    .footer .social {
+      display: none; }
+  
+    .article .header {
+      width: 100%;
+      height: 30%; }
+  
+    .article .content {
+      width: 100%;
+      height: 50%; }
+  
+    .article .foot {
+      width: 100%;
+      height: 20%; }
+  
+    .footer .social {
+      display: block; }
+  
+    /*****PAGINA INICIAL*****/
+    #produtos a {
+      width: 45%; }
+  
+    .botao-sessao {
+      width: 100%; }
+  
+    .topicos .icone-topico {
+      width: 50px;
+      height: 50px; }
+  
+    .topicos .titulo-principal {
+      font: 22px "Bebas"; }
+  
+    /***FOOTER***/
+    .footer .container {
+      width: 98%; }
+  
+    .footer .dados-inbra {
+      width: 30%; }
+  
+    .footer .menu-rodape {
+      width: 30%; }
+  
+    .footer .redes-sociais {
+      width: 30%; } }
+  
+  .coluna{
+      width: 30%;
+      width: 80%;
+  }
+  
+  
+  /*# sourceMappingURL=estilo.css.map */

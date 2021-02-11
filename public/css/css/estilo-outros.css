@@ -1,0 +1,306 @@
+@charset "UTF-8";
+/*******Fontes**********/
+@font-face {
+  font-family: "Bebas";
+  src: url("../fonts/BebasNeue Book.otf"); }
+@font-face {
+  font-family: "BebasStrong";
+  src: url("../fonts/BebasNeue Bold.ttf"); }
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Light.ttf"); }
+@font-face {
+  font-family: "LatoBold";
+  src: url("../fonts/Lato-Bold.ttf"); }
+/********Cores**********/
+.header-titulo {
+  width: 100%;
+  height: 150px;
+  background-color: #0390ab;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.header-titulo h1 {
+  font-family: 'Bebas';
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px; }
+
+.mapa-site {
+  width: 80%;
+  margin: 0 auto; }
+
+.mapa-site p {
+  font: 15px 'Lato'; }
+
+.mapa-site a {
+  text-decoration: none;
+  color: #3d3d3d; }
+
+/*******************************Clientes**********************************************/
+.logos-clientes {
+  width: 25%;
+  height: 200px;
+  float: left; }
+
+.logomarca {
+  width: 100%;
+  height: 75%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.logomarca img {
+  width: 70%;
+  height: auto;
+  z-index: 4500; }
+
+.logos-clientes:hover .nome-cliente {
+  opacity: 1;
+  transition: all 700ms ease; }
+
+.nome-cliente {
+  width: 100%;
+  height: 25%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #0390ab;
+  opacity: 0; }
+
+.nome-cliente p {
+  margin: 0;
+  color: #fff; }
+
+/*******************************Contato**********************************************/
+#container-contato {
+  width: 100%;
+  height: auto;
+  margin-top: 40px; }
+
+#box-formulario {
+  width: 100%;
+  height: auto; }
+
+#redes-sociais {
+  font: 17px 'Lato'; }
+
+#redes-sociais i {
+  font-size: 25px; }
+
+#redes-sociais a {
+  text-decoration: none;
+  color: #3d3d3d; }
+
+#redes-sociais a:visited {
+  color: #3d3d3d; }
+
+#box-formulario table {
+  width: 60%;
+  margin-bottom: 10px;
+  margin: 0 auto; }
+
+#box-formulario input, #box-formulario textarea {
+  border: 1px solid #3d3d3d;
+  width: 100%;
+  margin-bottom: 15px; }
+
+#box-formulario input {
+  height: 28px;
+  font: 15px 'Lato', arial, sans-serif; }
+
+#box-formulario ::-webkit-input-placeholder {
+  color: #3d3d3d;
+  font: 15px 'Lato', arial, sans-serif; }
+#box-formulario :-moz-placeholder {
+  color: #3d3d3d;
+  font: 15px 'Lato', arial, sans-serif; }
+#box-formulario ::-moz-placeholder {
+  color: #3d3d3d;
+  font: 15px 'Lato', arial, sans-serif; }
+#box-formulario :-ms-input-placeholder {
+  color: #3d3d3d;
+  font: 15px 'Lato', arial, sans-serif; }
+#box-formulario textarea {
+  font: 15px 'Lato', arial, sans-serif;
+  resize: none; }
+
+#box-formulario .botao-enviar {
+  font: 18px 'Bebas';
+  width: 200px;
+  height: 35px;
+  background-color: transparent;
+  border: 1px solid #3d3d3d; }
+
+#box-formulario .botao-enviar:hover {
+  background-color: #3d3d3d;
+  color: #fff;
+  transition-duration: .5s; }
+
+#box-formulario input:focus, #box-formulario textarea:focus {
+  background-color: #f9f9f9; }
+
+#mapa-google {
+  width: 100%;
+  height: 362px;
+  background-image: url("../images/mapa.jpg");
+  background-size: cover;
+  background-position: center; }
+
+/*******************************Quem somos*********************************************/
+#quem-somos {
+  width: 100%;
+  height: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: space-between;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px; }
+
+.box-quem-somos {
+  width: 30%;
+  height: 400px;
+  border: 1px solid #c7c7c7;
+  padding: 15px; }
+
+.box-quem-somos:hover {
+  box-shadow: -1px 0px 12px 0px rgba(50, 50, 50, 0.43);
+  transition-duration: .6s; }
+
+.box-quem-somos .header {
+  width: 100%;
+  height: 30%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.box-quem-somos p {
+  margin: 0;
+  text-align: center; }
+
+.box-quem-somos .header p {
+  font-size: 50px; }
+
+.box-quem-somos ul li {
+  font: 18px 'Lato'; }
+
+/*******************************Atualiza├º├Áes*********************************************/
+#atualizacoes {
+  width: 100%; }
+
+#atualizacoes table {
+  width: 100%;
+  font: 17px 'Lato'; }
+
+#atualizacoes table th {
+  text-align: left;
+  padding-left: 10px; }
+
+#atualizacoes table td {
+  padding-left: 10px; }
+
+/*******************************mensagem**********************************************/
+#mensagem {
+  width: 100%;
+  min-height: 200px; }
+
+/******MEDIA QUERYES*********/
+@media (max-width: 320px) {
+  /***QUEM SOMOS***/
+  .box-quem-somos {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 10px; }
+
+  .box-quem-somos p {
+    margin: 0;
+    padding: 0; }
+
+  /***CLIENTES***/
+  .logos-clientes {
+    width: 50%; }
+
+  .nome-cliente {
+    display: none; }
+
+  /**CONTATO**/
+  #box-formulario table {
+    width: 100%; } }
+@media (min-width: 321px) and (max-width: 480px) {
+  /***QUEM SOMOS***/
+  .box-quem-somos {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 10px; }
+
+  /***CLIENTES***/
+  .logos-clientes {
+    width: 50%; }
+
+  .nome-cliente {
+    display: none; }
+
+  /**CONTATO**/
+  #box-formulario table {
+    width: 100%; } }
+@media (min-width: 481px) and (max-width: 768px) {
+  /***QUEM SOMOS***/
+  .box-quem-somos {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 10px; }
+
+  /***CLIENTES***/
+  .logos-clientes {
+    width: 33%; }
+
+  .nome-cliente {
+    display: none; }
+
+  /**CONTATO**/
+  #box-formulario table {
+    width: 80%; } }
+@media (min-width: 769px) and (max-width: 950px) {
+  /***QUEM SOMOS***/
+  .box-quem-somos {
+    width: 48%;
+    height: 400px;
+    margin-bottom: 10px; }
+
+  /**CONTATO**/
+  #box-formulario table {
+    width: 60%; } }
+
+/*# sourceMappingURL=estilo-outros.css.map */
